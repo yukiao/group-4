@@ -1,0 +1,50 @@
+
+.person-profile{
+    position: relative;
+    margin-top: -350px;
+    border-radius: 30px;
+    padding: 50px;
+    background-color: white;
+    background-color:#232323;
+    color: white;
+}
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.picture{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.person-profile p{
+    margin: 0 !important ;
+}
+.left-segment{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.right-segment{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.linking{
+    height:100px;
+    background-color: #212121;
+    margin-top: -56px;
+}
+progress{
+    width: 95%;
+    height: 30px;
+}
+
+@media only screen and (min-width:600px){
+    .person-profile{
+        margin-top: -300px;
+    }
+}
