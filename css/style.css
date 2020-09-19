@@ -53,6 +53,13 @@ li a:hover{
 a.btn-small{
     border-radius: 20px;
 }
+.relative{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
 .content{
     position: relative;
     margin-top: -70px;
@@ -78,6 +85,7 @@ a.btn-small{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 
 }
 .clickable{
@@ -86,7 +94,20 @@ a.btn-small{
 #teams{
     margin-top: -56px;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
+    color: white;
+}
+#teams .divider{
+    margin-bottom: 30px;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    font-weight: bolder;
+}
+.footer-content{
+    margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 600px){
