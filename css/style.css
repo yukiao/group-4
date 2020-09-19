@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+}
+h4{
+    margin: 0;
+}
+.jumbotron{
+    width: 100%;
+    height: 440px;
+    background-image: url(../images/team.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: -56px;
+    position: relative;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0));
+}
+.jumbotron a{
+    position: absolute; 
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+
+}
+.offer{
+    margin-bottom: 70px;
+}
+nav{
+    z-index: 1;
+    position: relative;
+}
+li{
+    margin: 0px 5px;
+}
+li a{
+    font-size: 1.3em !important;
+}
+
+li a:hover{
+    background-color: transparent !important;
+    border-bottom: 3px solid orangered;
+    font-weight: bolder;
+}
+
+a.btn-small{
+    border-radius: 20px;
+}
+.content{
+    position: relative;
+    margin-top: -70px;
+    border-radius: 30px;
+    padding: 50px;
+    background-color: white;
+}
+.divider{
+    width: 100%;
+    height: 3px;
+    border-radius: 50px;
+    margin: 50px 0;
+}
+.picture{
+    height: 150px;
+    width: 150px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+.person{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.clickable{
+    margin: 20px 0;
+}
+#teams{
+    margin-top: -56px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+@media only screen and (min-width: 600px){
+    .jumbotron{
+        height: 640px;
+        
+        margin-top: -64px;
+    }
+}
