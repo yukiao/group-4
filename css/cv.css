@@ -42,6 +42,9 @@
     background-color: #212121;
     margin-top: -56px;
 }
+.subtitle{
+    margin-top: 80px;
+}
 progress{
     width: 95%;
     height: 30px;
