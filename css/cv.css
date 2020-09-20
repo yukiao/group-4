@@ -17,6 +17,10 @@
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    row-gap: 20px;
+}
+#back{
+    margin-top: 60px;
 }
 .picture{
     margin-top: 20px;
